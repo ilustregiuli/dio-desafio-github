@@ -1,0 +1,33 @@
+Java Web - Conceitos
+
+Em Java Web, esses recursos são mapeamentos para nomes de classes Java.
+
+JSP (Java Server Pages) - página em HTML com conteúdos em linguagem Java. È um HTML com códigos Java, que deve ser salvo como .jsp
+JSP = arquivo escrito com HTML + Java.
+Todo arquivo escrito como JSP, quando é lido e executado pelo servidor, é transformado em um Servlet.
+
+Servlet - classe em Java para tratar requisições WEB dentro de um servidor Java WEB (Java container). As classes Servlets são geradas a partir dos JSP's nos Web Containers.
+
+Apache Tom Cat - Web Container = servidor web + servlet container
+GlassFish - Aplication Server - Servidor de aplicações - tem um web container + EJB container e todas as especificações Java EE.
+
+--------------------------------------------------------
+Colocando Código Java dentro de uma página JSP:
+tags = <%	out.println("Olá");	%>
+
+Colocando código HTML dentro de comandos Java:
+out.println("<h1>Número PAR </h1>" + num);
+
+OBServação: não é aconselhado misturar código Java com layout.
+Não usar páginas JSP como união de HTML com código Java.
+---------------------------------------------------------
+
+
+
+
+
+ 
+
+
+
+

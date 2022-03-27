@@ -1,0 +1,30 @@
+MAP
+
+Estrutura "Chave- Valor"
+
+Sintaxe:
+
+const myMap = new Map() -- > declaração
+
+myMap.set('chave', 'valor') --> adiciona par "chave-valor"
+
+myMap.get(chave) -- > devolve o valor/ se for deletado, devolve "undefined"
+
+myMap.delete(chave) -- > deleta uma entrada "chave-valor"
+
+SET
+
+Estrutura de valores "únicos" - não se repete
+
+Sintaxe:
+
+const mySet = new Set() -- > declaração
+
+mySet.add(1) 
+mySet.add(5) -- > adiciona valores
+
+mySet.has(1) -- > true 
+mySet.has(3) -- > false   --> retorna se existe o valor
+
+mySet.delete(5) -- > deleta um valor
+

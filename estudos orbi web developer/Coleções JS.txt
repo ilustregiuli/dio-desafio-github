@@ -28,3 +28,6 @@ mySet.has(3) -- > false   --> retorna se existe o valor
 
 mySet.delete(5) -- > deleta um valor
 
+mySet.size --> tamanho do set
+
+
